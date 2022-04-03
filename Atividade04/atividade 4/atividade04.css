@@ -1,0 +1,117 @@
+
+body {
+    background:url(images/bg.jpg);
+    background-repeat: no-repeat;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  
+  .container {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+  }
+
+  header h1 a:hover { /* mudando a cor do link quando posicionado */
+  font-style: italic;
+  }
+  
+  article {
+    background-color: rgba(157, 116, 187, 0.548);
+    border: 2px solid #008cff8a;
+    margin-bottom: 20px;
+    flex: 1;
+    padding: 10px; /* espaçamento entre a borda e o título */
+    color:#ffffff;
+    text-align: justify;
+  }
+  
+  article h2 {
+    border-bottom: 1px dashed #008cff8a;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  article img {
+    border: 1px solid #008cff8a;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .clear { /* para a imagem nao "ficar fora" quando usa o float */
+    clear: both;
+  }
+  
+  footer {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  section { /* para a barra lateral lista e titulo */
+    width: 660px;
+    float: left;
+  }
+  
+  nav {
+    margin-top: 20px;
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    flex: 0 0 20vw;
+    background: #4abdac71;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  nav h3 {
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  nav ul {
+    font-size: 12px;
+  }
+
+  aside {
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    flex: 0 0 20vw;
+    background: #ff4ae16e;
+    color: #ffffff;
+  }
+  
+  aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  
+  aside ol {
+    font-size: 12px;
+  }
+
+  aside p{
+    font-size: 12px;
+    text-align: justify;
+  }
+  

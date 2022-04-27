@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.mudacor{
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 1920px){
+    .mudacor {
+        background-color: yellow;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Amarelo Amarildo";
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .mudacor {
+        background-color: purple;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Roxo Robson";
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .mudacor {
+        background-color: red;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Vermelho Valmir";
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .mudacor {
+        background-color: magenta;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Magenta Marcelo";
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mudacor {
+        background-color: orange;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Laranja Leonardo";
+    }
+}
+
+@media screen and (max-width: 420px){
+    .mudacor {
+        background-color: gray;
+        text-align: center;
+    } 
+
+    .mudacor h1:after{
+        content: "Cinza Cleber";
+    }
+}

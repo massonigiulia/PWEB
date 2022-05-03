@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  background: linear-gradient(-45deg, #ffc2cc, #fd93a5, #f1546e, #f8294b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 90vh;
+  font-size: 150%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 500%;
+    color: rgb(0, 0, 0);
+    color: #000;
+    text-shadow: 
+             -1px -1px 0px #FFF, 
+             -1px 1px 0px #FFF,                    
+              1px -1px 0px #FFF,                  
+              1px 0px 0px #FFF;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 100px;
+    line-height: 100px;
+    color: rgba(0, 0, 0, 0.678);
+    margin-top: 10%;
+    text-align: center;
+}
+  
+section{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px 5px 5px 5px;
+}
+  
+section{
+    background-color: #ffffff00;
+    -webkit-flex: 2 1 500px;
+    -webkit-box-flex: 2;
+    -ms-flex: 2 1 500px;
+    flex: 2 1 500px;
+
+}
+  
+.container{
+    -webkit-display: -webkit-box;
+    -webkit-display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.escolha{
+  text-align: center;
+}
+
+.input{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 16px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.button_slide {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.button {
+  text-align: center;
+  height: 35px;
+  width: 60px;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  color: #000000;
+  font-family: 'Bangers';
+  font-size: 16px;
+}
+
+.slide_diagonal:hover {
+  height: 180px;
+  width: 180px;
+}
+
+  
+@media screen and (max-width: 500px) {
+    .container{
+        -webkit-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    section{
+        margin-right: 0;
+        -webkit-flex-basis: auto;
+        -moz-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+    

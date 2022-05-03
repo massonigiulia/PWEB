@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css"/>
+   
+    <title>Atv 07 - Jo Ken Pô</title>
+    
+</head>
+
+    <body>
+
+        <h1>Jo Ken Pô</h1>
+
+        <div class="container">
+            <section>
+                <div class="input" id="forms">
+                    <input type="text" id="usuario" class="input" placeholder="Digite seu nome para jogar" onchange="user()"></input>
+                    <button type="button" id="enviar" class="button" onclick="mostrarJogo()">Enviar</button>
+                </div>
+                <div class="escolha" id="opcoes" hidden>
+                    <input type="image" src="pedra.png" class="button_slide slide_diagonal" id="pedra" onclick=pedra()></input>
+                    <input type="image" src="papel.png" class="button_slide slide_diagonal" id="papel" onclick=papel()></input>
+                    <input type="image" src="tesoura.png" class="button_slide slide_diagonal" id="tesoura" onclick=tesoura()></input>
+                </div>
+                
+            </section>
+        </div>
+
+        <footer>Giulia Alves Massoni</footer>
+        
+    </body>
+
+
+</html>

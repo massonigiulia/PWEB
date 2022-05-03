@@ -1,4 +1,4 @@
-Utilize as caixas de diálogo: Alert, Prompt e Confirmdaformadesejada.
+Utilize as caixas de diálogo: Alert, Prompt e Confirm da forma desejada.
 
 1) Media.html: Leia o nome e as três notas de um aluno. Calcule e mostre a média aritmética.
 2) Operacoes.html: Receba dois números e calcule e mostre:

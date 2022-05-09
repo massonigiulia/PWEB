@@ -1,0 +1,11 @@
+Durante o lançamento de um filme, 45 pessoas assistiram. 
+Na saída foi realizada uma pesquisa informando a idade, sexo e a opinião, onde: ótimo=4, bom=3, regular=2, péssimo=1.
+
+Fazer uma aplicação utilizando JavaScript que receba os dados(idade,sexo e o pinião)e retornar:
+
+a média da idade das pessoas que responderam ao questionário;
+a idade da pessoa mais velha;
+a idade da pessoa mais nova;
+a quantidadede pessoas que responderam péssimo;
+a porcentagemde pessoas que responderam ótimo e bom;
+o número de mulheres e homens que responderam ao questionário.

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Atv 8 - Pesquisa</title>
+</head>
+
+<body class="bg-dark text-light container">
+
+    <section>
+        <h2 class="mb-3 mt-5 text-success titulo" id="pesquisa">Formulário de Pesquisa</h2>
+        <form id="form" class="row align-items-center">
+            <div class="form-group mb-4 col-md-3 col-lg-3">
+                <label for="idade" class="form-label">Idade</label>
+                <input type="number" name="idade" id="idade" class="form-control">
+            </div>
+
+            <div class="form-group mb-4 col-md-4 col-lg-3">
+                <div>
+                    <label class="form-label">Sexo</label>
+                </div>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="sexo" id="sexoM" value="H" checked>
+                    <label class="btn btn-outline-primary" for="sexoM">Masculino</label>
+
+                    <input type="radio" class="btn-check" name="sexo" id="sexoF" value="M">
+                    <label class="btn btn-outline-primary" for="sexoF">Feminino</label>
+                </div>
+            </div>
+
+            <div class="form-group mb-4 col-md-6 col-lg-6">
+                <div>
+                    <label class="form-label">Opiniões</label>
+                </div>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="opiniao" id="otimo" value="4" checked>
+                    <label class="btn btn-outline-primary" for="otimo">Ótimo</label>
+
+                    <input type="radio" class="btn-check" name="opiniao" id="bom" value="3">
+                    <label class="btn btn-outline-primary" for="bom">Bom</label>
+
+                    <input type="radio" class="btn-check" name="opiniao" id="regular" value="2">
+                    <label class="btn btn-outline-primary" for="regular">Regular</label>
+
+                    <input type="radio" class="btn-check" name="opiniao" id="pessimo" value="1">
+                    <label class="btn btn-outline-primary" for="pessimo">Péssimo</label>
+                </div>
+            </div>
+
+            <div class="col-md-1 col-lg-3">
+                <button type="button" class="btn btn-success btn-block" id="btnSalvar">Salvar</button>
+            </div>
+        </form>
+
+
+        <h2 class="mb-3 mt-5 text-success" id="result">Resultado da Pesquisa</h2>
+        <h2 class="mb-3 mt-5 text-success" id="finalResult" hidden>Pesquisa Finalizada - Resultados Finais</h2>
+        <form class="row align-items-end">
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Número de Respondentes</label>
+                <input type="text" class="form-control" id="qtdeTotal" disabled>
+            </div>
+
+            <!-- <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Número de Homens</label>
+                <input type="text" class="form-control" id="qtdeHomens" disabled>
+            </div>
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Número de Mulheres</label>
+                <input type="text" class="form-control" id="qtdeMulheres" disabled>
+            </div> -->
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Maior Idade Registrada</label>
+                <input type="text" class="form-control" id="maiorIdade" disabled>
+            </div>
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Menor Idade Registrada</label>
+                <input type="text" class="form-control" id="menorIdade" disabled>
+            </div>
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Média de Idade</label>
+                <input type="text" class="form-control" id="mediaIdade" disabled>
+            </div>
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Quantidade de avaliações <b>Péssimo</b></label>
+                <input type="text" class="form-control" id="qtdePessimo" disabled>
+            </div>
+
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <label class="form-label">Avaliações <b>Ótimo</b> ou <b>Bom</b> (em %)</label>
+                <input type="text" class="form-control" id="qtdeOtimoBom" disabled>
+            </div>
+
+            <div class="col-md-1 col-lg-3" id="reiniciar" hidden>
+                <button type="button" class="btn btn-success btn-block" id="btnReiniciar">Iniciar Nova Pesquisa</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>

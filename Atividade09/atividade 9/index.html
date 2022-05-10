@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Atv 9 - Funções</title>
+</head>
+
+<body class="bg-dark text-light container">
+
+    <section>
+        <h2 class="mb-3 mt-5 text-success">Funções - JS</h2>
+        <h4 class="mb-3 mt-5 text-success">Insira um número em cada caixinha e execute a função desejada.</h4>
+        <form id="form" class="row align-items-center">
+            <div class="form-group mb-5 col-md-3 col-lg-2">
+                <label for="num1" class="form-label">Número 1</label>
+                <input type="number" name="num1" id="num1" class="form-control">
+            </div>
+            <div class="form-group mb-5 col-md-3 col-lg-2">
+                <label for="num2" class="form-label">Número 2</label>
+                <input type="number" name="num2" id="num2" class="form-control">
+            </div>
+            <div class="form-group mb-5 col-md-3 col-lg-2">
+                <label for="num3" class="form-label">Número 3</label>
+                <input type="number" name="num3" id="num3" class="form-control">
+            </div>
+
+
+            <div class="col-md-1 mb-3 col-lg-5">
+                <button type="button" class="btn btn-success btn-block" id="btnMaior" onclick="exibirMaior()">Maior Número</button>
+                <button type="button" class="btn btn-success btn-block" id="btnOrdem" onclick="exibirOrdenados()">Ordem Crescente</button>
+            </div>
+            </div>
+
+        </form>
+
+        <h2 class="mb-3 mt-5 text-success">Resultado da Função</h2>
+        <form class="row align-items-end">
+            <div class="mb-3 col-12 col-md-6 col-lg-4">
+                <input type="text" class="form-control" id="resultado" disabled>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>

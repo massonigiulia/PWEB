@@ -1,0 +1,3 @@
+Criar o Objeto: Aluno1 (propriedades: RA, Nome).
+Atribua valores para as propriedades.
+**Utilizar 3 formas diferentes.

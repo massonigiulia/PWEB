@@ -1,0 +1,1 @@
+Criarumapáginaquenocarregamentomostraajanela fechada com um título “Abra a Janela”. Semover com o mouse sobre a imagem da janelafechada, mostra a janela aberta (abre a janela),se saircom o mouse da imagem mostra a janelafechada (fecha a janela). Se clicar sobre aimagem mostra a imagem da janela quebrada(quebraajanela).

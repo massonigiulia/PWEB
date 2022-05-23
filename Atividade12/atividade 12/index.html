@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade 12</title>
+</head>
+
+<body>
+    <img height="300px" width="250px" title="Abra a Janela" src="janelafechada.png" 
+        onmousedown="mDown(this)" onmouseup="mUp(this)" onmousemove="mMove(this)" onmouseout="mOut(this)">
+        <p style="margin-left: 80px;" id="abrir">Abra a Janela</p>
+    </div>
+    <script>
+        function mDown(obj) {
+            obj.style.color = "#00FFFF";
+            obj.src = "janelaaberta.png";
+            obj.title = "Feche a Janela";
+            document.getElementById("abrir").hidden = true;
+        }
+
+        function mUp(obj) {
+            obj.style.color = "#ffff00";
+            obj.src = "janelaquebra.png";
+        }
+
+        function mMove(obj) {
+            obj.style.color = "#00FFFF";
+            obj.src = "janelaaberta.png";
+            obj.title = "Feche a Janela";
+            document.getElementById("abrir").hidden = true;
+        }
+
+        function mOut(obj) {
+            obj.style.color = "#AA3000";
+            obj.src = "janelafechada.png"
+            document.getElementById("abrir").hidden = false;
+        }
+    </script>
+</body>
+
+</html>

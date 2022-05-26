@@ -1,0 +1,3 @@
+Criar um Input Texte  dois Input Checkbox.
+1º CheckBox-transforma o conteúdo do Input Textem letras maiúsculas.
+2º CheckBox-transforma o conteúdo do Input Textem letras minúsculas.

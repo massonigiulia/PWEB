@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade 13</title>
+</head>
+
+<body>
+    <div id="principal" width=200 heigth=200>
+
+        <label>Digite uma mensagem bonita!</label>
+        <input name="text" type="text" id="text" size="52" maxlength="150" value=""><br /><br />
+      
+            <input name="checkMaiuscula" type="checkbox" id="checkMaiuscula" onclick="transformarMaiuscula()">
+                Transformar conteúdo em letras maiúsculas
+            </input><br />
+
+            <input name="checkMinuscula" type="checkbox" id="checkMinuscula" onclick="transformarMinuscula()">
+                Transformar conteúdo em letras minúsculas
+            </input><br /><br />
+
+        <input class="jururu" name="Reset" type="reset" form="meuForm" value="Limpar" onclick="limpar()">
+    </div>
+</body>
+
+</html>

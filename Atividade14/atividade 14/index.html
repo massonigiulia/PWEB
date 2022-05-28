@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade 14</title>
+</head>
+
+<body>
+    <div id="principal" width=200 heigth=200 align=center>
+
+        <form action="teste" method="POST" name="form1" id="form1" onsubmit="return validarDados();">
+            <div class="center">
+                <label for="nome">Nome Completo:</label>
+                <br>
+                <input class="campo" name="nome" type="text" id="nome" minlength="10">
+                <br><br>
+                <label for="email">Email:</label>
+                <br>
+                <input class="campo" name="email" type="email" id="email">
+                <br><br>
+                <label for="nome">Comentários:</label>
+                <br>
+                <textarea style="resize: none;" rows="8" class="campo" name="comentario" id="comentario" minlength="20"></textarea>
+            </div>
+            <footer class="center">
+                <div style="margin: 50px 0px;">
+                    Primeira vez aqui?</br>
+                    <input type="radio" id="sim" name="opcao" />
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="opcao" />
+                    <label for="nao">Não</label>
+                </div>
+
+                <input class="jururu" name="submit" type="submit" form="form1" value="Enviar">
+                <input class="jururu" name="reset" type="reset" form="form1" value="Limpar">
+            </footer>
+        </form>
+</body>
+
+</html>

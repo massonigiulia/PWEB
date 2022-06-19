@@ -8,7 +8,7 @@
 - Personagens: Killjoy.
 
 - Paleta de Cores:
-[!alt text](https://github.com/massonigiulia/PWEB/blob/master/Portfolio/paletaKj.png)
+![alt text](https://github.com/massonigiulia/PWEB/blob/master/Portfolio/paletaKj.png)
 
 - Linguagens utilizadas: HTML, CSS e JavaScript.
 
